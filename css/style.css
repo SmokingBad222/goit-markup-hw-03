@@ -40,7 +40,9 @@ img {
 }
 .header .conteiner{
     display: flex;
-    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+        
 
 }
 .header {
