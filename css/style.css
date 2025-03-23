@@ -38,6 +38,10 @@ img {
     margin: 0 auto;
 
 }
+.header .conteiner{
+    display: flex;
+
+}
 .header {
    
     border-bottom: 1px solid #e7e9fc;
@@ -138,6 +142,8 @@ img {
 
 .business {
     background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
    
   
 }
@@ -149,8 +155,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    padding-top: 188px;
-    padding-bottom: 188px;
     max-width: 496px;
     margin: 0 auto;
     text-align: center;
@@ -188,6 +192,7 @@ img {
 
 
   .information {
+    padding: 120px 0;
 
   }
 
