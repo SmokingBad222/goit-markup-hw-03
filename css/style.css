@@ -307,6 +307,7 @@ img {
     margin-bottom: 60px; */
 
     margin-bottom: 72px;
+    
 }
 
 .portfolio-menu-list {
@@ -336,8 +337,9 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    /* padding-top: 32px;
+    padding-bottom: 8px; */
+    margin-bottom: 8px
 }
 
 .portfolio-text{
