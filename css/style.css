@@ -344,12 +344,10 @@ img {
 /*--------------FOOTER---------------*/
 
 .footer {
-    background: #2e2f42; 
-    
-}
-.footer-title{
+    background: #2e2f42;  
     margin-top: 60px;
     padding-top: 100px;
+    padding: 100px 0;
     
 }
 
