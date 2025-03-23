@@ -39,15 +39,12 @@ img {
 
 }
 .header {
-   
-
-}
-.header-conteiner{
-    display: flex;
+   display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #e7e9fc;
 
 }
+
 
 .header-navigation {
     display: flex;
