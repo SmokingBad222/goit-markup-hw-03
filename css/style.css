@@ -227,6 +227,8 @@ img {
 /*--------------TEAM---------------*/
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
+
 }
 
 .team-title {
@@ -240,6 +242,9 @@ img {
     margin-top: 60px;
     padding-top: 120px;
     padding-bottom: 72px;
+
+
+    margin-bottom: 72px;
 }
 
 .team-menu-list {
@@ -252,6 +257,11 @@ img {
    
    background-color: #ffffff;
     margin-bottom: 120px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-container{
+    padding: 32px 0;
 }
 
 .team-subtitle{
@@ -261,8 +271,9 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-text{
@@ -272,6 +283,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    text-align: center;
 }
 
 /*--------------TEAM---------------*/
