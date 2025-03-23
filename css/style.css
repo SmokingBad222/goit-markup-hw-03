@@ -3,9 +3,23 @@ body{
     color: #434455;
     background-color: #ffffff;
 }
+p{
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.conteiner{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -19,10 +33,17 @@ button{
 /*----------------HEADER-------------------*/
 
 .header {
+   
 
+}
+.header-conteiner{
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-navigation {
+    display: flex;
+    gap: 76px;
 
 }
 
@@ -34,6 +55,10 @@ button{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+      
+    
 }
 
 .accent {
@@ -41,11 +66,14 @@ button{
 }
 
 .header-menu-list {
-    
+    display: flex;
+    gap: 40px;
         
 }
 
 .header-menu-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 
@@ -55,6 +83,7 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+   
 }
 .header-menu-link:hover, .header-menu-link:focus{
     color: #404bbf;
@@ -66,12 +95,17 @@ button{
 }
 
 .header-adress-menu {
-
+    display: flex;
 }
 
 .header-adress-item {
-
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-left: 0 auto;
+   
+   
 }
+
 
 .header-adress-link {
     font-weight: 400;
@@ -92,6 +126,8 @@ button{
 
 .business {
     background: #2e2f42;
+   
+  
 }
 
 .business-title {
@@ -101,6 +137,17 @@ button{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding-top: 188px;
+    max-width: 496px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 48px;
+
+    
+}
+.bussines-button{
+    display: flex;
+
 }
 
 .business-btn {
@@ -110,6 +157,12 @@ button{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    min-width: 169px;
+    height: 56px;
+    margin-bottom: 188px;
+    text-align: center;
+    
+    
 }
 
 .business-btn:hover, .business-btn:focus{
@@ -125,11 +178,16 @@ button{
 
   }
 
-  .information-menu {
+  .information-menu-list {
+    padding-top: 120px;
+    margin-bottom: 60px;
+    display: flex;
+    gap: 24px;
 
   }
 
-  .information-item {
+  .information-menu-item {
+    flex-basis: calc((100%-72px)/4);
 
   }
 
@@ -139,6 +197,7 @@ button{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
   }
 
   .information-text {
@@ -154,6 +213,7 @@ button{
 /*--------------TEAM---------------*/
 .team {
     background-color: #F4F4FD;
+  
 
 }
 
@@ -165,14 +225,24 @@ button{
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-top: 60px;
+    padding-top: 120px;
+    padding-bottom: 72px;
+   
 }
 
 .team-menu-list {
+    display: flex;
+    gap: 24px;
+    flex-basis: calc((100%-72px)/4);
+   
 }
 
 .team-menu-item {
+   
    background-color: #ffffff;
-
+    margin-bottom: 120px;
+   
 }
 .team-subtitle{
     font-weight: 500;
@@ -181,6 +251,9 @@ button{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    
 }
 .team-text{
     font-weight: 400;
@@ -189,6 +262,7 @@ button{
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    
 
 }
 
@@ -207,10 +281,17 @@ button{
     text-transform: capitalize;          
     text-align: center;
     color: #2e2f42;
+    margin-top: 60px;
+    padding-top: 120px;
+    padding-bottom: 72px;
+    margin-bottom: 60px;
 }
 
 .portfolio-menu-list {
-    
+    display: flex;
+    gap: 24px;
+    flex-basis: calc(100%-120px)/6;
+    flex-wrap: wrap;
 
 }
 
@@ -229,6 +310,8 @@ button{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
 .portfolio-text{
@@ -244,7 +327,13 @@ button{
 /*--------------FOOTER---------------*/
 
 .footer {
-    background: #2e2f42;
+    background: #2e2f42; 
+    
+}
+.footer-title{
+    margin-top: 60px;
+    padding-top: 100px;
+    
 }
 
 .footer-link {
@@ -255,7 +344,8 @@ button{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-
+ 
+   
 }
 
 .accent-two {
@@ -275,6 +365,9 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    padding-bottom: 100px;
+    max-width: 264px;
 }
+
 
 /*--------------FOOTER---------------*/
