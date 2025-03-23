@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #ffffff;
-    border-bottom: 1px solid #e7e9fc
+
 }
 p{
     margin: 0;
@@ -10,12 +10,7 @@ p{
 h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
-.conteiner{
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
+
 
 ul{
     list-style-type: none;
@@ -36,6 +31,13 @@ img {
 
 /*----------------HEADER-------------------*/
 
+.conteiner{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+}
 .header {
    
 
@@ -43,12 +45,14 @@ img {
 .header-conteiner{
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
+
 }
 
 .header-navigation {
     display: flex;
     gap: 76px;
-    align-items: center
+    align-items: center;
 
 }
 
@@ -60,9 +64,9 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-right: 76px
       
     
 }
@@ -74,6 +78,8 @@ img {
 .header-menu-list {
     display: flex;
     gap: 40px;
+    align-items: center;
+    padding: 24px 0;
         
 }
 
@@ -102,14 +108,18 @@ img {
 
 .header-adress-menu {
     display: flex;
+    gap: 40px;
+    margin-right: 40px;
 }
+
 
 .header-adress-item {
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-left: 0 auto;
-   
-   
+    margin-left: 0 auto;  
+}
+.header-adress-item:last-child{
+    margin-right: 0;
 }
 
 
@@ -144,6 +154,7 @@ img {
     text-align: center;
     color: #fff;
     padding-top: 188px;
+    padding-bottom: 188px;
     max-width: 496px;
     margin: 0 auto;
     text-align: center;
