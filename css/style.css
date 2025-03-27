@@ -55,7 +55,7 @@ img {
     display: flex;
     gap: 76px;
     align-items: center;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .header-logo {
@@ -66,9 +66,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;  
+ 
 }
 
 .accent {
@@ -79,14 +77,12 @@ img {
     display: flex;
     gap: 40px;
     align-items: center;
-    padding: 24 0;
+    /* padding: 24px 0; */
      
 }
 
 .header-menu-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding: 24px 0; 
+   
 }
 
 .header-menu-link {
@@ -95,7 +91,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px 0; 
+    /* padding: 24px 0;  */
 }
 .header-menu-link:hover, .header-menu-link:focus{
     color: #404bbf;
@@ -157,7 +153,7 @@ img {
     max-width: 496px;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .bussines-button{
@@ -208,13 +204,13 @@ img {
 
   .information-menu-list {
     padding-top: 120px;
-    margin-bottom: 60px;
+  
     display: flex;
     gap: 24px;
   }
 
   .information-menu-item {
-    flex-basis: calc((100%-72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
   }
 
   .information-subtitles {
@@ -252,7 +248,7 @@ img {
     text-align: center;
     color: #2e2f42;
     margin-top: 60px;
-    padding-top: 120px;
+    
     padding-bottom: 72px;
 
 
@@ -262,7 +258,7 @@ img {
 .team-menu-list {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100%-72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-menu-item {
@@ -313,10 +309,7 @@ img {
     text-transform: capitalize;          
     text-align: center;
     color: #2e2f42;
-    /* margin-top: 60px;
-    padding-top: 120px;
-    padding-bottom: 72px;
-    margin-bottom: 60px; */
+    
 
     margin-bottom: 72px;
     
@@ -326,7 +319,7 @@ img {
     display: flex;
     column-gap: 24px;
     row-gap: 48px;
-    flex-basis: calc(100%-120px)/6;
+    flex-basis: calc(100% - 120px) / 6;
     flex-wrap: wrap;
 }
 
@@ -349,8 +342,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    /* padding-top: 32px;
-    padding-bottom: 8px; */
     margin-bottom: 8px
 }
 
