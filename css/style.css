@@ -55,8 +55,9 @@ img {
 
 .header-navigation {
     display: flex;
-    /* gap: 76px; */
+    
     align-items: center;
+    margin-bottom: 16px;
     /* padding: 24px 0; */
 }
 
@@ -329,6 +330,7 @@ img {
 
 .portfolio-menu-item {
     background-color: #ffffff;
+    padding-bottom: 32px;
 }
 
 .portfolio-image {
